@@ -51,7 +51,7 @@ const Index = () => {
                       Try Now
                     </Link>
                   </Button>
-                  <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+                  <Button asChild variant="secondary" size="lg" className="bg-white/10 text-white border-white/20 hover:bg-white/20">
                     <Link to="/about">
                       Learn More
                       <ArrowRight className="ml-2 h-5 w-5" />
