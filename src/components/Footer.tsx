@@ -14,17 +14,23 @@ const Footer = () => {
               Built with Python, Flask, OpenCV, and Tesseract OCR.
             </p>
             <div className="flex space-x-2">
-              <Button variant="outline" size="sm">
-                <Github className="h-4 w-4 mr-2" />
-                GitHub
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://github.com/yaadav-deepanshu/" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-4 w-4 mr-2" />
+                  GitHub
+                </a>
               </Button>
-              <Button variant="outline" size="sm">
-                <Linkedin className="h-4 w-4 mr-2" />
-                LinkedIn
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://www.linkedin.com/in/deepanshu-yadav-2000092ba/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-4 w-4 mr-2" />
+                  LinkedIn
+                </a>
               </Button>
-              <Button variant="outline" size="sm">
-                <Mail className="h-4 w-4 mr-2" />
-                Contact
+              <Button variant="outline" size="sm" asChild>
+                <a href="mailto:yaadav.deepanshu@gmail.com">
+                  <Mail className="h-4 w-4 mr-2" />
+                  Contact
+                </a>
               </Button>
             </div>
           </div>
